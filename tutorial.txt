@@ -1,0 +1,17 @@
+-- Para instalar um servido http: 
+
+npm init -y
+
+-- Para instalar o express 
+
+npm install express
+
+-- Para chamar o express 
+
+const http = require("http");
+const express = require ("express");
+const aplicacao = express (); //retorna um pacote de infos express
+
+-- Para o node rodar com servidor e recarregar sozinho quando houve mudanças 
+
+node --watch ./servidor.js
